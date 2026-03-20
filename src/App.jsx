@@ -82,7 +82,7 @@ function App() {
   return (
     <div style={{ maxWidth: 800, margin: "0 auto", padding: 20 }}>
       <ToastContainer position="top-right" autoClose={3000} />
-      <h1 style={{ textAlign: "center" }}>📦 Controle de Estoque</h1>
+      <h1 style={{ textAlign: "center" }}>📦 Controle de Vendas</h1>
 
       <form onSubmit={criarProduto} style={{ display: "flex", gap: 10, marginBottom: 20 }}>
         <input placeholder="Nome" value={nome} onChange={e => setNome(e.target.value)} />
