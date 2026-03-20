@@ -3,7 +3,7 @@ import { useEffect, useState, useCallback } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const API_URL = "https://script.google.com/macros/s/AKfycbzK5ykIqSnl8_qH7Jm3a_yeGdef4moKwWce3Xa23JgcROJ7AU3t5gYHH759-mNc_uTx7A/exec";
+const API_URL = "https://script.google.com/;
 
 function App() {
   const [produtos, setProdutos] = useState([]);
